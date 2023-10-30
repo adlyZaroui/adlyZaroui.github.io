@@ -94,3 +94,24 @@ img {
 .button:hover {
   background-color: #333;
 }
+
+
+/* Dark mode styles */
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+a.dark-mode {
+  color: #fff;
+}
+
+a.dark-mode:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1.dark-mode, h2.dark-mode, h3.dark-mode, h4.dark-mode, h5.dark-mode, h6.dark-mode {
+  color: #fff;
+}
